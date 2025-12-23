@@ -24,7 +24,7 @@ void main() async {
   // Load .env
   await dotenv.load(fileName: ".env");
 
-  await NotificationService.init();
+  // await NotificationService.init();
 
   // Init Supabase
   await Supabase.initialize(
